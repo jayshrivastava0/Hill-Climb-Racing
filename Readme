@@ -1,3 +1,9 @@
+## This blog covers my journey for this project.
+https://jayshrivastava.blogspot.com/2024/01/hill-climb-racing-automation.html 
+
+##
+##
+
 So after moving the mss and varios other iwnow capture, I decided to go window api screenshot
 it was giving me the flexiblity to capture any window, not the whole screen. So it was good and the FPS was also
 respectable, and with just few optimizations the FPS jumped to pretty good.
