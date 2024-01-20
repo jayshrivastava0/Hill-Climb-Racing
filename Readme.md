@@ -1,10 +1,11 @@
-## This blog covers my journey for this project.
+# This blog covers my journey for this project.
 https://jayshrivastava.blogspot.com/2024/01/hill-climb-racing-automation.html 
 
-##
-##
+###
+## The project is still in the works therefore there are so many redundant files and readme is still not organized
+###
 
-So after moving the mss and varios other iwnow capture, I decided to go window api screenshot
+So after moving the mss and varios other window capture, I decided to go window api screenshot
 it was giving me the flexiblity to capture any window, not the whole screen. So it was good and the FPS was also
 respectable, and with just few optimizations the FPS jumped to pretty good.
 
@@ -16,7 +17,7 @@ pointing ti the sky on thee right part of the screen rather on the car which is 
 So template matching is working but not as nicely as i would have hoped for. So let's try some optimization
 
 
-So i tried fo rtemplate matching
+So i tried for template matching
 result = cv.matchTemplate(image, template, cv.TM_SQDIFF)
 result = cv.matchTemplate(image, template, cv.TM_SQDIFF_NORMED)
 result = cv.matchTemplate(image, template, cv.TM_CCORR)
