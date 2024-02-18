@@ -49,6 +49,10 @@ Now there are two options to explore
 1. YOLO
 2. Feature Matching using ORB
 
+https://github.com/jayshrivastava0/Hill-Climb-Racing/assets/98177190/d278d5af-feb1-4328-a1ee-626e163356e3
+
+
+
 
 
 Now i tried with feature matching with orb as well, but the problem is That Feature mapping is not performing as I would have wanted it to the reason that I saw was because when I was featured matching it the icon for gasoline actually very closely matches with the color ofOffer that's Why it was getting confused moreover I was constantly observing that whenever anything is printed on the screen while playing the game suppose air time or neck flip bonus or any kind of bonus or any kind of flashing text is generated it is actually outllined by black color And the same color was of the car's front so it was again getting very confused with thatI think feature matching would have Formed very well if the game was little less flashy there are coins there is the meter for gasoline there is the icon to get the gasoline and fill up your tank also there is some gems as well also whenever the fuel starts to get low flashing right signals appear on the screen signaling that the fuel is low that color it is little less red but it again could be a problem also after so much of Of playing out with different configurations most of the time feature matching was happening from the hat of the driver....closely matches with other icons such as Highest record and full screen icon so again if I was increasing the number of feature matching it was getting confused between all those things if I was reducing it then I was not properly satisfied with the feature matching so feature matching using org didn't turn out as well as I would have liked it too also to feature match I tried to do it in grayscale in rgb and bgr is different configuration in the colors as well, but upto no avail.
