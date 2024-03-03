@@ -1,0 +1,31 @@
+# Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
+path: D:\OneDrive - University at Buffalo\Projects\Misc\Hill Climb Racing\dataset  # dataset root dir
+train: images  # train images (relative to 'path') 128 images
+val:  images # val images (relative to 'path') 128 images
+test:  # test images (optional)
+
+# Classes (80 COCO classes)
+names:
+  0: dog
+  1: person
+  2: cat
+  3: tv
+  4: car
+  5: meatballs
+  6: marinara sauce
+  7: tomato soup
+  8: chicken noodle soup
+  9: french onion soup
+  10: chicken breast
+  11: ribs
+  12: pulled pork
+  13: hamburger
+  14: cavity
+  15: fuel gauge
+  16: coins
+  17: gasoline
+  18: gem
+  19: airtime bonus
+  20: car-dead
+  21: driver-down
+  22: neck-flip

@@ -1,0 +1,15 @@
+pip install pyautogui
+
+
+        try:
+            # This should always be 3, if 1 then case handling would exit with runtime error
+            result = windll.user32.PrintWindow(self.hwnd, save_dc.GetSafeHdc(), 3)
+            bmpinfo = bitmap.GetInfo()
+            bmpstr = bitmap.GetBitmapBits(True)
+            # Get the size of the bitmap data
+            bitmap_size = bmpinfo["bmWidthBytes"] * bmpinfo["bmHeight"]
+
+            # Reshape the bitmap data into the correct shape
+            img = np.frombuffer(bmpstr, dtype=np.uint8)[:bitmap_size].reshape(
+                (bmpinfo["bmHeight"], bmpinfo["bmWidthBytes"])
+            )
