@@ -14,3 +14,4 @@ class Car:
 
     def release(self):
         pyautogui.keyUp(self.current_key_pressed)
+
