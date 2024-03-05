@@ -65,6 +65,21 @@ class window_capture:
         else:
             raise ValueError("Incomplete dimensions provided for the window")
 
+
+    def get_window_coordinates(self):
+        """
+        Get the coordinates of the window relative to the screen.
+
+        Returns:
+        tuple: Tuple containing the left, top, right, and bottom coordinates of the window.
+        """
+        # Get the coordinates of the window relative to the screen
+        rect = win32gui.GetWindowRect(self.hwnd)
+        left, top, right, bottom = rect
+
+        return left, top, right, bottom
+    
+    
     # Method to start the capture of the window
     def start_capture(self):
         # Creating bitmap for capturing
@@ -102,3 +117,4 @@ class window_capture:
             save_dc.DeleteDC()
             mfc_dc.DeleteDC()
             win32gui.ReleaseDC(self.hwnd, hwnd_dc)
+

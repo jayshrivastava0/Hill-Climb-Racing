@@ -2,7 +2,7 @@ import cv2 as cv
 import numpy as np
 from multiprocessing import Pool
 
-def match_template(frame, template_path, threshold=0.8):
+def match_template(frame, template_path, threshold=0.8, match_cordinates = False):
     """
     Perform template matching on the given frame.
 
@@ -28,10 +28,19 @@ def match_template(frame, template_path, threshold=0.8):
     loc = np.where(res >= threshold)
 
     # Draw rectangles around the matched regions
-    if len(loc[0]) > 0:
-        return True  # Match found
+    if match_cordinates == False:
+        if len(loc[0]) > 0:
+            return True  # Match found
 
-    return False  # No match found
+        return False  # No match found
+    else:
+        if len(loc[0]) > 0:
+            top_left = (np.min(loc[1]), np.min(loc[0]))
+            bottom_right = (np.max(loc[1]) + template.shape[1], np.max(loc[0]) + template.shape[0])
+            match_coords = (top_left, bottom_right)
+            return match_coords
+
+        return None  # No match found
 
 
 
