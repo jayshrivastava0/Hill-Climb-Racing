@@ -19,6 +19,7 @@ During the development process, I encountered various challenges, particularly i
 ### YOLO and ORB
 Initially, I explored the possibility of using object detection techniques like YOLO (You Only Look Once) and ORB (Oriented FAST and Rotated BRIEF) feature matching to detect the car's position and orientation within the game screen.
 
+#### **ORB**
 For **ORB feature matching**, the results were not satisfactory due to a significant number of false positives.
 
 https://github.com/jayshrivastava0/Hill-Climb-Racing/assets/98177190/b69144da-d535-486c-bf5d-060305c9fd01
@@ -26,7 +27,16 @@ https://github.com/jayshrivastava0/Hill-Climb-Racing/assets/98177190/b69144da-d5
 The feature matching algorithm struggled to accurately identify the car's position and orientation, often confusing it with other visual elements like the gasoline icon, printed text, coins, and other icons. The presence of flashing signals, varying colors, and dynamic visuals in the game environment contributed to the false positive detections. Despite trying different configurations and color spaces, the ORB feature matching approach did not yield the desired level of accuracy for this particular use case.
 
 
-For **YOLO**, I utilized the YOLOv5 model and added custom classes specific to this game's use case. The results obtained from YOLO are showcased below:
+_________________________________________________________________________________________
+
+
+#### **YOLO**
+For **YOLO**, I utilized the YOLOv5 model and added custom classes specific to this game's use case. 
+
+https://github.com/jayshrivastava0/Hill-Climb-Racing/assets/98177190/3c387d98-a89a-421f-869e-01ca21e2feb2
+
+
+The results obtained from YOLO are showcased below:
 
 
 | Labels <br> ![Labels](https://github.com/jayshrivastava0/Hill-Climb-Racing/blob/main/yolo_results/labels.jpg) | Labels Correlogram <br> ![Labels Correlogram](https://github.com/jayshrivastava0/Hill-Climb-Racing/blob/main/yolo_results/labels_correlogram.jpg) |
