@@ -93,7 +93,7 @@ This is the yolo results.
 
 ![R_curve](https://github.com/jayshrivastava0/Hill-Climb-Racing/blob/main/yolo_results/R_curve.png)
 
-![Labels](https://github.com/jayshrivastava0/Hill-Climb-Racing/blob/main/yolo_results/labels.jpg) { width=50% }
+![Labels](https://github.com/jayshrivastava0/Hill-Climb-Racing/blob/main/yolo_results/labels.jpg)
 
 ![Results](https://github.com/jayshrivastava0/Hill-Climb-Racing/blob/main/yolo_results/results.png)
 
