@@ -81,3 +81,24 @@ This is the yolo results.
 ![PR_curve](https://github.com/jayshrivastava0/Hill-Climb-Racing/blob/main/yolo_results/PR_curve.png)
 ![R_curve](https://github.com/jayshrivastava0/Hill-Climb-Racing/blob/main/yolo_results/R_curve.png)
 ![Results](https://github.com/jayshrivastava0/Hill-Climb-Racing/blob/main/yolo_results/results.png)
+
+
+
+
+
+
+| Image 1 | Image 2 |
+|---------|---------|
+| ![Confusion Matrix](https://github.com/jayshrivastava0/Hill-Climb-Racing/blob/main/yolo_results/confusion_matrix.png) | ![F1 Curve](https://github.com/jayshrivastava0/Hill-Climb-Racing/blob/main/yolo_results/F1_curve.png) |
+
+| Image 3 | Image 4 |
+|---------|---------|
+| ![Labels Correlogram](https://github.com/jayshrivastava0/Hill-Climb-Racing/blob/main/yolo_results/labels_correlogram.jpg) | ![Labels](https://github.com/jayshrivastava0/Hill-Climb-Racing/blob/main/yolo_results/labels.jpg) |
+
+| Image 5 | Image 6 |
+|---------|---------|
+| ![P Curve](https://github.com/jayshrivastava0/Hill-Climb-Racing/blob/main/yolo_results/P_curve.png) | ![PR Curve](https://github.com/jayshrivastava0/Hill-Climb-Racing/blob/main/yolo_results/PR_curve.png) |
+
+| Image 7 | Image 8 |
+|---------|---------|
+| ![R Curve](https://github.com/jayshrivastava0/Hill-Climb-Racing/blob/main/yolo_results/R_curve.png) | ![Results](https://github.com/jayshrivastava0/Hill-Climb-Racing/blob/main/yolo_results/results.png) |
