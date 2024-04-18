@@ -1,6 +1,13 @@
 # This blog covers my journey for this project.
 https://jayshrivastava.blogspot.com/2024/01/hill-climb-racing-automation.html 
 
+
+## Gameplay
+
+https://github.com/jayshrivastava0/Hill-Climb-Racing/assets/98177190/568378a0-a9db-48aa-8b37-cdbb5dacba20
+
+
+
 ###
 ## The project is still in the works therefore there are so many redundant files and readme is still not organized
 ###
@@ -47,7 +54,19 @@ After trying out HSV and incorporating it into the screen capture with object de
 
 Now there are two options to explore
 1. YOLO
+
+https://github.com/jayshrivastava0/Hill-Climb-Racing/assets/98177190/3c387d98-a89a-421f-869e-01ca21e2feb2
+
+
+
+
+
+   
 2. Feature Matching using ORB
+
+https://github.com/jayshrivastava0/Hill-Climb-Racing/assets/98177190/b69144da-d535-486c-bf5d-060305c9fd01
+
+
 
 
 
