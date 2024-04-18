@@ -74,3 +74,10 @@ Now i tried with feature matching with orb as well, but the problem is That Feat
 So it can be clearly seen that yolo was performing better. So i decided to go with YOLO.
 This is the yolo results.
 ![YOLO Confusion Matrix](https://github.com/jayshrivastava0/Hill-Climb-Racing/blob/main/yolo_results/confusion_matrix.png)
+![F1 Curve](https://github.com/jayshrivastava0/Hill-Climb-Racing/blob/main/yolo_results/F1_curve.png)
+![Labels_Correlogram](https://github.com/jayshrivastava0/Hill-Climb-Racing/blob/main/yolo_results/labels_correlogram.jpg)
+![Labels](https://github.com/jayshrivastava0/Hill-Climb-Racing/blob/main/yolo_results/labels.jpg)
+![P_curve](https://github.com/jayshrivastava0/Hill-Climb-Racing/blob/main/yolo_results/P_curve.png)
+![PR_curve](https://github.com/jayshrivastava0/Hill-Climb-Racing/blob/main/yolo_results/PR_curve.png)
+![R_curve](https://github.com/jayshrivastava0/Hill-Climb-Racing/blob/main/yolo_results/R_curve.png)
+![Results](https://github.com/jayshrivastava0/Hill-Climb-Racing/blob/main/yolo_results/results.png)
