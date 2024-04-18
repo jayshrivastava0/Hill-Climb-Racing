@@ -58,11 +58,8 @@ Now there are two options to explore
 https://github.com/jayshrivastava0/Hill-Climb-Racing/assets/98177190/3c387d98-a89a-421f-869e-01ca21e2feb2
 
 
-
-
-
    
-2. Feature Matching using ORB
+1. Feature Matching using ORB
 
 https://github.com/jayshrivastava0/Hill-Climb-Racing/assets/98177190/b69144da-d535-486c-bf5d-060305c9fd01
 
@@ -74,4 +71,6 @@ Now i tried with feature matching with orb as well, but the problem is That Feat
 
 
 
-So tomorrow we start on YOLO
+So it can be clearly seen that yolo was performing better. So i decided to go with YOLO.
+This is the yolo results.
+![YOLO Confusion Matrix](yolov5\runs\train\exp15\confusion_matrix.png)
