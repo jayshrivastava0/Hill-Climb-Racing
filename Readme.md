@@ -84,7 +84,6 @@ This is the yolo results.
 ![Labels_Correlogram](https://github.com/jayshrivastava0/Hill-Climb-Racing/blob/main/yolo_results/labels_correlogram.jpg)
 
 
-
 ![P_curve](https://github.com/jayshrivastava0/Hill-Climb-Racing/blob/main/yolo_results/P_curve.png)
 
 
@@ -93,11 +92,9 @@ This is the yolo results.
 
 ![R_curve](https://github.com/jayshrivastava0/Hill-Climb-Racing/blob/main/yolo_results/R_curve.png)
 
+
 ![Labels](https://github.com/jayshrivastava0/Hill-Climb-Racing/blob/main/yolo_results/labels.jpg)
 
-![Results](https://github.com/jayshrivastava0/Hill-Climb-Racing/blob/main/yolo_results/results.png)
 
-
-
-
+![Results|50%](https://github.com/jayshrivastava0/Hill-Climb-Racing/blob/main/yolo_results/results.png)
 
