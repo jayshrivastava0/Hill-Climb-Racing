@@ -72,33 +72,27 @@ Now i tried with feature matching with orb as well, but the problem is That Feat
 
 
 So it can be clearly seen that yolo was performing better. So i decided to go with YOLO.
-This is the yolo results.
-![YOLO Confusion Matrix](https://github.com/jayshrivastava0/Hill-Climb-Racing/blob/main/yolo_results/confusion_matrix.png)
-![F1 Curve](https://github.com/jayshrivastava0/Hill-Climb-Racing/blob/main/yolo_results/F1_curve.png)
-![Labels_Correlogram](https://github.com/jayshrivastava0/Hill-Climb-Racing/blob/main/yolo_results/labels_correlogram.jpg)
-![Labels](https://github.com/jayshrivastava0/Hill-Climb-Racing/blob/main/yolo_results/labels.jpg)
-![P_curve](https://github.com/jayshrivastava0/Hill-Climb-Racing/blob/main/yolo_results/P_curve.png)
-![PR_curve](https://github.com/jayshrivastava0/Hill-Climb-Racing/blob/main/yolo_results/PR_curve.png)
-![R_curve](https://github.com/jayshrivastava0/Hill-Climb-Racing/blob/main/yolo_results/R_curve.png)
-![Results](https://github.com/jayshrivastava0/Hill-Climb-Racing/blob/main/yolo_results/results.png)
+These are the yolo results.
 
 
 
 
 
-
-| Image 1 | Image 2 |
+| Confusion Matrix | F1 Curve |
 |---------|---------|
 | ![Confusion Matrix](https://github.com/jayshrivastava0/Hill-Climb-Racing/blob/main/yolo_results/confusion_matrix.png) | ![F1 Curve](https://github.com/jayshrivastava0/Hill-Climb-Racing/blob/main/yolo_results/F1_curve.png) |
 
-| Image 3 | Image 4 |
+| Labels Correlogram | R Curve |
 |---------|---------|
-| ![Labels Correlogram](https://github.com/jayshrivastava0/Hill-Climb-Racing/blob/main/yolo_results/labels_correlogram.jpg) | ![Labels](https://github.com/jayshrivastava0/Hill-Climb-Racing/blob/main/yolo_results/labels.jpg) |
+| ![Labels Correlogram](https://github.com/jayshrivastava0/Hill-Climb-Racing/blob/main/yolo_results/labels_correlogram.jpg) | ![R Curve](https://github.com/jayshrivastava0/Hill-Climb-Racing/blob/main/yolo_results/R_curve.png) |
 
-| Image 5 | Image 6 |
+| P Curve | PR Curve |
 |---------|---------|
 | ![P Curve](https://github.com/jayshrivastava0/Hill-Climb-Racing/blob/main/yolo_results/P_curve.png) | ![PR Curve](https://github.com/jayshrivastava0/Hill-Climb-Racing/blob/main/yolo_results/PR_curve.png) |
 
-| Image 7 | Image 8 |
-|---------|---------|
-| ![R Curve](https://github.com/jayshrivastava0/Hill-Climb-Racing/blob/main/yolo_results/R_curve.png) | ![Results](https://github.com/jayshrivastava0/Hill-Climb-Racing/blob/main/yolo_results/results.png) |
+
+
+
+![Labels](https://github.com/jayshrivastava0/Hill-Climb-Racing/blob/main/yolo_results/labels.jpg)
+![Results](https://github.com/jayshrivastava0/Hill-Climb-Racing/blob/main/yolo_results/results.png)
+
