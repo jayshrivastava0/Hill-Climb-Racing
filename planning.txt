@@ -1,0 +1,34 @@
+Game controls are done.
+Screen recording is done - We can now pass the dimension of area to look at for particular field.
+                            Such as looking in the upper left corner to look for the available fuel, and so on.
+
+                            Now make some windows which capture : Fuel, Angular Momentum, and  Alive or Dead.
+                
+
+
+
+
+Now for data collection:
+1. Fuel low signal
+2. Angular momentum
+3. Alive or dead
+
+
+
+
+HSV colors:
+lowH - 28
+LowS-228
+LowV-116
+HighH - 180
+HighS-255
+HighV-255
+
+
+
+lowH - 0
+HighH - 71
+LowS-78
+HighS-255
+LowV-0
+HighV-253
