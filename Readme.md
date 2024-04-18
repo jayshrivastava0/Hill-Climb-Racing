@@ -1,4 +1,4 @@
-# Hill Climb Racing AI Agent
+# Hill Climb Racing AI Agent Using Reinforcement Learning
 
 ## Overview
 
